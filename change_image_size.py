@@ -104,10 +104,10 @@ for i in range(len(m)):
         img = img.resize((math.ceil(1724/divide6),math.ceil(1724/(r*divide6))))
      
     img.save(f_img)
-'''
+
 for i in range(len(os.listdir(f))):
     old_name = f+"/"+os.listdir(f)[i]
     new_name = f+"/"+os.listdir(f)[i][-13:]
     os.rename(old_name, new_name)
 
-'''
+
